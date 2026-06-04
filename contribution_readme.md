@@ -16,8 +16,6 @@ listed in the issue. I'm comfortable with Python and regex patterns, and the
 project has clear setup documentation. The issue is labeled "help wanted", 
 has no assignees, and the maintainer is actively engaged.
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
-
 
 ---
 
