@@ -9,12 +9,29 @@
 ---
 
 ## Why I Chose This Issue
-I chose this issue because it's a well-defined Python task that involves 
-building a YAML-based classifier to tag security commands with MITRE ATT&CK 
-technique IDs. The scope is clear, specific files to create and modify are 
-listed in the issue. I'm comfortable with Python and regex patterns, and the 
-project has clear setup documentation. The issue is labeled "help wanted", 
-has no assignees, and the maintainer is actively engaged.
+I chose issue #137 "Tag actions and golden paths with MITRE ATT&CK technique IDs" 
+because it aligns with my Python experience and my goal to contribute to a real 
+AI/cybersecurity project. The issue is labeled "help wanted", has no assignees, 
+and has a clear definition of done listed directly in the issue.
+
+I'm interested in this because:
+1. I'm comfortable with Python and regex patterns, which are the core skills 
+   needed to build the TechniqueClassifier
+2. The codebase area is contained; the issue lists exactly which files to 
+   create and modify, so I know where to focus
+3. The maintainer has clearly thought through the architecture, including a 
+   sample YAML and flowchart, which gives me a strong starting point
+4. I want to learn how real security tooling maps commands to threat 
+   intelligence frameworks like MITRE ATT&CK
+
+From reading the issue thread, I understand the current problem is that when 
+an AI agent runs commands like "nmap" or "sqlmap", they are stored as plain 
+untagged strings; invisible to the security community. My contribution will 
+add a Python classifier that automatically tags those commands with standardized 
+MITRE ATT&CK technique IDs, making training results comparable to industry 
+benchmarks.
+
+Left a comment on the issue introducing myself and expressing intent to work on it.
 
 
 ---
