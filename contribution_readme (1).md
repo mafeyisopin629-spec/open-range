@@ -5,7 +5,7 @@
 **Issue:** [https://github.com/open-cybernauts/open-range/issues/137]  
 **Status:** [Phase I / [Complete]
 
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Status:** [Phase II / Phase III / Phase IV] [In Progress / Complete]
 ---
 
 ## Why I Chose This Issue
@@ -14,7 +14,7 @@
 
 I chose this issue because it's a well-defined Python task that involves 
 building a YAML-based classifier to tag security commands with MITRE ATT&CK 
-technique IDs. The scope is clear — specific files to create and modify are 
+technique IDs. The scope is clear, specific files to create and modify are 
 listed in the issue. I'm comfortable with Python and regex patterns, and the 
 project has clear setup documentation. The issue is labeled "help wanted", 
 has no assignees, and the maintainer is actively engaged.
